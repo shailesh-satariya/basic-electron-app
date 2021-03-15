@@ -1,0 +1,6 @@
+export enum FetchState {
+    NO_STATE = 0,
+    FETCH_RECORDS = 1,
+    FETCH_RECORDS_SERVER_ERROR = 2,
+    FETCH_RECORDS_SUCCESS = 3
+}
